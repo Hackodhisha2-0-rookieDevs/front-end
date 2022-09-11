@@ -9,7 +9,7 @@
     <script src="https://kit.fontawesome.com/83ccd457ed.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
+    <main id="main">
         <nav class="navbar">
             <div class="nav-logo n-d">
                 <img src="" alt="">
@@ -32,16 +32,30 @@
                 </ul>
             </div>
         </nav>
-    </header>
+        
+        <section id="main">
+            <h1 class="title">Waste Classification Tool</h1>
+            <p class="tagline"> The perfect tool to automatically identify the type of waste </p>
+            <button>
+                <a href="#model">
+                    Get Started
+                </a>
+            </button>
+        </section>
+    </main>
 
-    <section class="main">
-        <h1 class="title">Waste Classification Tool</h1>
-        <p class="tagline"> The perfect tool to automatically identify the type of waste </p>
-        <button>
-            <a href="model.html">
-                Get Started
-            </a>
-        </button>
+
+    <section id="model">
+        <div class="left-box">
+            <div class="image"></div>
+            <img src="./assets/images/bin.png" alt="">
+        </div>
+        <div class="right-box">
+            <div class="upload-btn-wrapper">
+                <button class="btn">Upload a file</button>
+                <input type="file" name="myfile" />
+              </div>
+        </div>
     </section>
 </body>
 </html>
