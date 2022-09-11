@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "SF Distant Galaxy";
+    src: url(./assets/fonts/SF\ Distant\ Galaxy/SF\ Distant\ Galaxy.ttf) format('truetype');
+}
+@font-face {
+    font-family: Manrope;
+    src: url(./assets/fonts/Manrope-Regular.ttf) format('truetype');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:fixed url(./assets/images/mountains.png) no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.nav-logo{
+    margin-left: 68px;
+    margin-top: 29px ;
+    font-family: "Manrope",sans-serif;
+    /* border: 1px red solid; */
+}
+.nav-menu{
+    font-family: "Manrope",sans-serif;
+    width: 70%;
+    margin-top:29px ;
+    margin-right: 46px ;
+}
+.n-ul{
+    display: flex;
+    list-style: none;
+    justify-content: right;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.ni{
+    margin-right: 53px;
+    font-size: 20px;
+}
+.title{
+    font-family: "SF Distant Galaxy" , sans-serif;
+    margin-top: 124px;
+    margin-left: 68px;
+    font-size: 64px;
+    /* border: 1px red solid; */
+    width: 404px;
+}
+.tagline{
+    margin-top: 46px;
+    margin-left: 69px;
+    font-size: 20px;
+    width: 312px;
+    font-family: "Manrope",sans-serif;
+}
+
+button{
+    margin-left: 69px;
+    margin-top: 50px;
+    width: 120px;
+    height: 35px;
+    font-size: 12px;
+    background-color: #FD5D51;
+    border-radius: 25px;
+    border: none;
+}
+button a{
+    color: #FFFFFF;
+}
